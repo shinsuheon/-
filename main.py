@@ -1,8 +1,6 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import plotly.figure_factory as ff
-
 # 제목 설정
 st.title("국가별 출산율 바 차트")
 
