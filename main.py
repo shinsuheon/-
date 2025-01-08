@@ -44,3 +44,10 @@ st.write("자살율 데이터:")
 st.dataframe(data)
 
 st.image("https://images.unsplash.com/photo-1633423648889-53504d595a62")
+
+
+st.logo(
+    LOGO_URL_LARGE,
+    link="https://streamlit.io/gallery",
+    icon_image=LOGO_URL_SMALL,
+)
