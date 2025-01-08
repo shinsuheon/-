@@ -1,5 +1,7 @@
 import streamlit as st
 import random
+import pandas as pd
+import numpy as np
 
 st.title("나의 첫번째 앱")
 st.text('\n\n\n\n\n\n')
@@ -14,3 +16,6 @@ else:
 
 if st.button("나는 왈도", type="tertiary"):
     st.write("그것은 굉장한")
+chart_data = pd.DataFrame(np.random.randn(20, 3), columns=["a", "b", "c"])
+
+st.bar_chart(chart_data)
