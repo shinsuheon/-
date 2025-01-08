@@ -23,4 +23,4 @@ st.bar_chart(data.set_index("국가")["출산율"])
 st.write("출산율 데이터:")
 st.dataframe(data)
 
-st.image('funny.pns')
+st.image('funny.png')
