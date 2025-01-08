@@ -43,3 +43,4 @@ st.bar_chart(data.set_index("년도")["자살율"])
 st.write("자살율 데이터:")
 st.dataframe(data)
 
+st.image("https://m.blog.naver.com/131oto/222742272800?view=img_5")
