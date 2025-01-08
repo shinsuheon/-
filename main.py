@@ -3,7 +3,7 @@ import random
 
 st.title("나의 첫번째 앱")
 st.text('\n\n\n\n\n\n')
-st.write('ㅎㅇㅎㅇㅎㅇ')
+st.write('좋은좋은좋은아침')
 st.write('제 이메일 주소는 안알려줄거야')
 
 st.button("처음으로 되돌리다", type="primary")
